@@ -7,8 +7,10 @@ import { firebaseReducer } from "react-redux-firebase";
 
 const initialState = {
   blog:JSON.parse(localStorage.getItem("blog")) || [
-    {id:'123',title:"hero", story:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."},
-    {id:'13',title:"zero", story:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+    {id:'123',title:"Fast & Furious", story:"Fast & Furious is a media franchise centered on a series of action films that are largely concerned with illegal street racing, heists and spies. The franchise also includes short films, a television series, live shows, video games and theme park attractions. It is distributed by Universal Pictures"},
+    
+    {id:'13',title:"Ocean's Eleven", story:"Danny Ocean, a gangster, assembles a group of eleven people in an effort to steal money from three popular casinos in Las Vegas owned by his rival, Terry Benedict.."},
+    {id:'12',title:"Hera Pheri", story:"The plot revolves around an eccentric trio, consisting of a comically hilarious but kind-hearted garage owner named Baburao Ganpatrao Apte, fondly called as Babu Bhaiya (Paresh Rawal), a crafty and cunning loafer named Raju (Akshay Kumar), and a simple and struggling pauper named Ghanshyam a.k.a. Shyam (Sunil Shetty), who find themselves trapped in crazy shenanigans including hilarious bits from Baburao himself."},
   ]
 };
   
